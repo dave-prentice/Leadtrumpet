@@ -8,7 +8,7 @@ namespace LeadTrumpet.Web
     {
         protected void Application_Start(object sender, EventArgs e)
         {
-            RouteTable.Routes.MapRoute("piccolotrumpet", "{controller}/{action}", new { controller = "piccolotrumpet", action = "index" });
+            RouteTable.Routes.MapRoute("home", "{controller}/{action}", new { controller = "home", action = "index" });
         }
     }
 }

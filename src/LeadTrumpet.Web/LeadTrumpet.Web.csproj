@@ -88,7 +88,8 @@
   <ItemGroup>
     <Content Include="Global.asax" />
     <Content Include="packages.config" />
-    <Content Include="Views\PiccoloTrumpet\Index.cshtml" />
+    <Content Include="Views\Home\index.cshtml" />
+    <Content Include="Views\Arranger\index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -100,11 +101,15 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Controllers\PiccoloTrumpetController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Views\Producer\" />
+    <Folder Include="Views\Recording Artist\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

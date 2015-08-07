@@ -1,0 +1,11 @@
+{
+  "name": "leadtrumpet",
+  "version": "1.0.0",
+  "description": "Package dependencies for Leadtrumpet.ca",
+  "author": "Dave Prentice <dave@leadtrumpet.ca>",
+  "devDependencies": {
+  },
+  "dependencies" : {
+    "bootstrap": "3.3.5"
+  }
+}
