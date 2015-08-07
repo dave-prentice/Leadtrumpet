@@ -1,6 +1,11 @@
 *.suo
 *.user
-**/.vs/*
+
 packages/*
+**/node_modules/*
+
+src/leadtrumpet.web/build/*
+
 **/bin/*
 **/obj/*
+**/.vs/*
