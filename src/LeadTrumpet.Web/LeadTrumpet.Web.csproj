@@ -86,7 +86,9 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\leadtrumpet.css" />
     <Content Include="Global.asax" />
+    <Content Include="images\Dave.png" />
     <Content Include="packages.config" />
     <Content Include="Views\Home\index.cshtml" />
     <Content Include="Views\Arranger\index.cshtml" />
@@ -126,7 +128,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>49472</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:49472/</IISUrl>
+          <IISUrl>http://daves-laptop</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

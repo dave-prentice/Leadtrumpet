@@ -1,29 +1,76 @@
 <!DOCTYPE html>
 
 @{
-    Layout = null;
+	Layout = null;
 }
 
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/node_modules/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet">
-    <title>Bootstrap 101 Template</title>
+    <!-- declare character encoding -->
+    <meta charset="utf-8">
+
+    <!-- force IE to edge mode-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- force inital state of the view port-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS includes -->
+	<link href="/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link href="/node_modules/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="/css/leadtrumpet.css" rel="stylesheet">
+	<title>Dave Prentice</title>
 </head>
 <body>
-    <div class="jumbotron">
-        <h1>Hello, world!</h1>
-        <p>...</p>
-        <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+
+	<nav class="navbar navbar-inverse navbar-static-top">
+		<div class="container-fluid">
+
+            <!-- Brand and menu toggle -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="\">Dave Prentice</a>
+            </div>
+
+            <!-- collapsible menu -->
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">Musician</a></li>
+                    <li><a href="#">Arranger</a></li>
+                    <li><a href="#">Producer</a></li>
+                </ul>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+	</nav>
+
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="col-md-12 leadtrumpet-banner">
+                <img id="image-dave" src="~/images/Dave.png" class="img-responsive center-block"/>
+            </div>
+
+            <div class="col-md-3 text-right">
+                <blockquote>
+                    <p><em>"One of the best lead trumpet players in the city"</em></p>
+                </blockquote>
+            </div>
+        </div>
     </div>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- include scripts at end -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 </html>
