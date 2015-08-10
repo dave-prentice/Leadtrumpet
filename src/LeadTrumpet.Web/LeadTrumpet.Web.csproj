@@ -92,6 +92,7 @@
     <Content Include="packages.config" />
     <Content Include="Views\Home\index.cshtml" />
     <Content Include="Views\Arranger\index.cshtml" />
+    <Content Include="Layouts\_MainLayout.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

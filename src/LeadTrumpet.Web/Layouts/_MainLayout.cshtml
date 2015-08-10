@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <!-- declare character encoding -->
+    <meta charset="utf-8">
+
+    <!-- force IE to edge mode-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- force inital state of the view port-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS includes -->
+    <link href="/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/node_modules/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="/css/leadtrumpet.css" rel="stylesheet">
+    <title>@Page.Title</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-inverse navbar-static-top">
+        <div class="container-fluid">
+
+            <!-- Brand and menu toggle -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="\">Dave Prentice</a>
+            </div>
+
+            <!-- collapsible menu -->
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">Musician</a></li>
+                    <li><a href="#">Arranger</a></li>
+                    <li><a href="#">Producer</a></li>
+                </ul>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    @RenderBody()
+
+    <hr />
+
+    <footer><p>&copy; Dave Prentice 2015</p></footer>
+
+    <!-- include scripts at end -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>
