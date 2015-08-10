@@ -1,6 +1,8 @@
 ﻿/*Bootstrap overrides*/
 .navbar {margin-bottom:0;}
 
+blockquote {border-left-color: #585858; margin-top:20px;}
+
 .leadtrumpet-banner {
     padding-left: 0;
     padding-right: 0;

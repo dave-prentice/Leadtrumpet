@@ -1,10 +1,8 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 
 @{
-	Layout = null;
+    Layout = null;
 }
-
-<!DOCTYPE html>
 
 <html lang="en">
 <head>
@@ -15,18 +13,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <!-- force inital state of the view port-->
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- CSS includes -->
-	<link href="/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-	<link href="/node_modules/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/node_modules/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet">
     <link href="/css/leadtrumpet.css" rel="stylesheet">
-	<title>Dave Prentice</title>
+    <title>Dave Prentice</title>
 </head>
 <body>
 
-	<nav class="navbar navbar-inverse navbar-static-top">
-		<div class="container-fluid">
+    <nav class="navbar navbar-inverse navbar-static-top">
+        <div class="container-fluid">
 
             <!-- Brand and menu toggle -->
             <div class="navbar-header">
@@ -52,25 +50,59 @@
                 </ul>
             </div>
         </div>
-	</nav>
+    </nav>
 
     <div class="container-fluid">
-        <div class="row">
 
+        <!-- header image -->
+        <div class="row">
             <div class="col-md-12 leadtrumpet-banner">
                 <img id="image-dave" src="~/images/Dave.png" class="img-responsive center-block"/>
             </div>
+        </div>
 
-            <div class="col-md-3 text-right">
+        <!-- Endorsement -->
+        <div class="row">
+            <div class="col-md-12">
                 <blockquote>
-                    <p><em>"One of the best lead trumpet players in the city"</em></p>
+                    <p><em>"Dave is currently one of the best lead trumpet players in the city"</em></p>
+                    <footer>Craig Johnson, The 11th Hour</footer>
                 </blockquote>
+            </div>
+        </div>
+
+        <!-- links -->
+        <div class="row">
+            <div class="col-sm-4 section-link">
+                <h2 class="text-center">Musician</h2>
+                <p>From Bach to Basie, a versatile musician and clinician with numerous recording credits to his name</p>
+                <div class="text-center">
+                    <a href="#" class="btn btn-default">See more..</a>
+                </div>
+            </div>
+            <div class="col-sm-4 section-link">
+                <h2 class="text-center">Arranger</h2>
+                <p>An agile arranger creating great scores for brass section or Big Band. Check out some of his charts</p>
+                <div class="text-center">
+                    <a href="#" class="btn btn-default">See more..</a>
+                </div>
+            </div>
+            <div class="col-sm-4 section-link">
+                <h2 class="text-center">Producer</h2>
+                <p>Producing recordings for many local artisis. Check out some of of Dave's recent projects</p>
+                <div class="text-center">
+                    <a href="#" class="btn btn-default">See more..</a>
+                </div>
             </div>
         </div>
     </div>
 
+    <hr />
+
+    <footer><p>&copy; Dave Prentice 2015</p></footer>
+
     <!-- include scripts at end -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-	<script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 </html>
